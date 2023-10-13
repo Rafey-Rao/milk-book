@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
     public void milkhistory(View view) {
         Intent milkhistroy=new Intent(this,milk_history.class);
         startActivities(new Intent[]{milkhistroy});
+        // commit g
 
     }
 }
